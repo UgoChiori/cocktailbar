@@ -24,3 +24,4 @@
 //         }
 //     );
 // }, [isMobile]); // Closing the useGSAP hook properly
+

@@ -1,9 +1,10 @@
+
 import React from "react";
 import { navLinks } from "../constants";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
-const Navigationbar: React.FC = () => {
+const NavBar: React.FC = () => {
  
     useGSAP(() => {
         const navTween = gsap.timeline({
@@ -41,4 +42,4 @@ const Navigationbar: React.FC = () => {
   );
 };
 
-export default Navigationbar;
+export default NavBar;
