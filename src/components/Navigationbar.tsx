@@ -25,9 +25,9 @@ const Navigationbar: React.FC = () => {
     <nav>
       <div>
         <a href="#home" className="flex items-center gap-2">
-            <img src="/images/logo.png" alt="logo" width={120} />
+            <img src="/images/logo.png" alt="logo"  />
             
-          <p>Chiori Café</p>
+          <p>Café De l'Aube</p>
         </a>
         <ul>
           {navLinks.map((link) => (

@@ -1,19 +1,35 @@
 const navLinks = [
- {
-	id: "cocktails",
-	title: "Cocktails",
+//  {
+// 	id: "cocktails",
+// 	title: "Cocktails",
+//  },
+//  {
+// 	id: "about",
+// 	title: "About Us",
+//  },
+//  {
+// 	id: "work",
+// 	title: "The Art",
+//  },
+//  {
+// 	id: "contact",
+// 	title: "Contact",
+//  },
+{
+    id: "cocktails",
+    title: "Cocktails", // Stays the same in French
  },
  {
-	id: "about",
-	title: "About Us",
+    id: "about",
+    title: "À Propos",
  },
  {
-	id: "work",
-	title: "The Art",
+    id: "work",
+    title: "L'Art",
  },
  {
-	id: "contact",
-	title: "Contact",
+    id: "contact",
+    title: "Contact", // Also stays the same
  },
 ];
 
@@ -182,5 +198,3 @@ export {
  sliderLists,
 };
 
-
-// ffmpeg -i input.mp4 -vf scale=960:-1 -movflags faststart -vcodec libx264 -crf 20 -g 1 -pix_fmt yuv420p output.mp4
