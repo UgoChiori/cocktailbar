@@ -89,30 +89,7 @@ const About: React.FC = () => {
 		</div>
 	 </div>
 	 
-      {/* <div className="top-grid">
-        <div className="md:col-span-3">
-          <div className="noisy" />
-          <img src="/images/abt1.png" alt="grid-image-1" />
-        </div>
-        <div className="md:col-span-6">
-          <div className="noisy" />
-          <img src="/images/abt2.png" alt="grid-image-2" />
-        </div>
-        <div className="md:col-span-3">
-          <div className="noisy" />
-          <img src="/images/abt5.png" alt="grid-image-5" />
-        </div>
-      </div>
-      <div className="bottom-grid">
-          <div className="md:col-span-8">
-          <div className="noisy" />
-          <img src="/images/abt3.png" alt="grid-image-2" />
-        </div>
-          <div className="md:col-span-4">
-          <div className="noisy" />
-          <img src="/images/abt4.png" alt="grid-image-2" />
-        </div>
-      </div> */}
+  
     </div>
   );
 };
