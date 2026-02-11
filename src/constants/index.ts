@@ -17,7 +17,7 @@ const navLinks = [
 //  },
 {
     id: "cocktails",
-    title: "Cocktails", // Stays the same in French
+    title: "Cocktails", 
  },
  {
     id: "about",
